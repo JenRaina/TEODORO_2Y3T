@@ -1,35 +1,77 @@
 body {
-    font-family: Arial, sans-serif; 
+    font-family: 'Arial', sans-serif; 
     padding: 0; 
-    margin:0; 
+    margin: 0; 
+    background-color: #f7f9fc;
+    color: #333;
 } 
 
 .header { 
     background-color: #001f3d; 
-    padding: 30px; 
-    color:#f4f4f4; 
+    padding: 35px; 
+    color: #ffffff; 
     text-align: center; 
 } 
 
-.info h2, 
-.info p{ 
-    margin-left:20px; 
-} 
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
 
-.columns{ 
-    line-height: 1.6; 
+.about-section {
+    padding: 30px 50px 10px 50px;
+}
+
+.main-columns { 
     display: flex;
     justify-content: space-between; 
     padding: 0 50px; 
-    margin-left:50px; 
-    width: 450px; 
-    float: left; 
+    gap: 50px; 
 } 
- 
-.certifications h2, 
-.certifications p{ 
-    line-height: 1.6; 
-    margin-right:0px; 
-    width: 45%; 
-    float: right; 
-} 
+
+.left-column { 
+    flex: 1; 
+}
+
+.right-column {
+    flex: 2.2; 
+}
+
+h2 {
+    color: #001f3d;
+    font-size: 1.25em;
+    margin-top: 25px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+p, .cert-list {
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+.cert-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experience-box li {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+
+strong {
+    color: #002e5b;
+}
