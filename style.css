@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif; 
+    padding: 0; 
+    margin:0; 
+} 
+
+.header { 
+    background-color: #001f3d; 
+    padding: 30px; 
+    color:#f4f4f4; 
+    text-align: center; 
+} 
+
+.info h2, 
+.info p{ 
+    margin-left:20px; 
+} 
+
+.columns{ 
+    line-height: 1.6; 
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 50px; 
+    margin-left:50px; 
+    width: 450px; 
+    float: left; 
+} 
+ 
+.experience h2, 
+.experience p{ 
+    line-height: 1.6; 
+    margin-right:0px; 
+    width: 45%; 
+    float: right; 
+} 
