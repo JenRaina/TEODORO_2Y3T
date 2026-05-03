@@ -17,6 +17,17 @@
         $summary = "I am a student at Far Eastern University, currently taking up Bachelor of Science in Information Technology.  
         I am passionate about learning new technologies and improving my skills in programming and web development."; 
 
+
+        $education = "FEU Tech<br>
+        Bachelor of Science in Information Technology<br>
+        2024 - Present
+        
+        FEU High School<br>
+        Science, Technology, Engineering, and Mathematics (STEM) specialized in ICT Strand<br>
+        2022 - 2024
+        ";
+
+
         $skills = "<li>HTML</li> 
         <li>CSS</li>  
         <li>Java</li>  
@@ -26,21 +37,21 @@
         <li>Cybersecurity</li>  
         <li>Open-Source Intelligence (OSINT)</li>";
 
-        $experience = "2026: <br> 
-        Introduction to Programming in Kotlin | Google for Developers<br> 
-        IT Specialist - JavaScript | Pearson<br> 
-        IT Specialist - Python | Pearson<br> 
-        Fundamentals of Open-Source Intelligence (OSINT) | Alison<br> 
+        $certifications = "2026: <br> 
+        <li>Introduction to Programming in Kotlin | Google for Developers<br></li>
+        <li>IT Specialist - JavaScript | Pearson<br></li> 
+        <li>IT Specialist - Python | Pearson<br></li> 
+        <li>Fundamentals of Open-Source Intelligence (OSINT) | Alison<br></li> 
         <br> 
 
         2025: <br> 
-        IT Specialist - Java | Certiport - A Pearson VUE Business<br> 
-        Cyber security: Understand Threats and Prevent Attacks | Alison <br> 
-        IT Specialist - HTML and CSS | Certiport - A Pearson VUE Business<br>  
+        <li>IT Specialist - Java | Certiport - A Pearson VUE Business<br></li>
+        <li>Cyber security: Understand Threats and Prevent Attacks | Alison <br></li> 
+        <li>IT Specialist - HTML and CSS | Certiport - A Pearson VUE Business<br></li>  
         <br> 
 
         2024: <br> 
-        Introduction to Cybersecurity | Cisco <br> 
+        <li>Introduction to Cybersecurity | Cisco <br></li> 
         ";   
     ?> 
 
@@ -56,6 +67,11 @@
             <p class = "summary"><?php echo $summary; ?></p> 
         </div> 
 
+        <div class = "info"> 
+            <h2>Education</h2> 
+            <p class = "education"><?php echo $education; ?></p> 
+        </div>
+        
         <div class = "columns"> 
             <div class = "skills"> 
                 <h2>Skills</h2> 
@@ -63,9 +79,9 @@
             </div> 
         </div> 
 
-        <div class = "experience"> 
-            <h2> Experience</h2> 
-            <p class = "experience"><?php echo $experience; ?></p> 
+        <div class = "certifications"> 
+            <h2>Certifications</h2> 
+            <p class = "certifications"><?php echo $certifications; ?></p> 
         </div> 
     </div> 
 </body> 
