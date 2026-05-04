@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #4a6fa5;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: white;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.section-title {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
