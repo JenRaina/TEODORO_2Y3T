@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 40px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+td {
+    width: 20%; 
+    padding: 15px;
+    border: 1px solid #cccccc;
+    color: #444444;
+    vertical-align: top; 
+}
+
+.story-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.story-info {
+    font-size: 11px;
+    line-height: 1.4;
+}
