@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #fafafa;
+}
+
+.resume-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.resume-table td, .resume-table th {
+    border: 1px solid #000;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.avatar-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+    display: block;
+}
+
+
